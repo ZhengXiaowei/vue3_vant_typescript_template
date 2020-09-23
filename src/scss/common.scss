@@ -1,0 +1,22 @@
+#app {
+  font-size: 24px;
+
+  .nav {
+    padding: 15px 0;
+    @include flex($space: center);
+
+    a {
+      font-size: 18px;
+      font-weight: normal;
+      color: $--font-color-dark;
+
+      &:first-child {
+        margin-right: 15px;
+      }
+
+      @include when(active) {
+        color: $--color-theme;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "vue3_vant_template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.5",
+    "vant": "^3.0.0-beta.0",
+    "vue": "^3.0.0-0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "compression-webpack-plugin": "^6.0.2",
+    "postcss-pxtorem": "^5.1.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "ts-import-plugin": "^1.6.6",
+    "typescript": "~3.9.3"
+  }
+}
