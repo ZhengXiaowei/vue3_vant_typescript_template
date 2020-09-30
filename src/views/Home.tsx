@@ -14,10 +14,10 @@ const Home = defineComponent({
     };
 
     return () => (
-      <>
+      <div>
         <p>{text.value}</p>
         <HelloWorld v-model={[text.value, "message"]} v-slots={textSlots} />
-      </>
+      </div>
     );
   },
 });
